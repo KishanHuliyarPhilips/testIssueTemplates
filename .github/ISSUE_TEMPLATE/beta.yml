@@ -10,5 +10,7 @@ body:
       description: whats your name
       placeholder: ex. Rahul
       value: Kishan
+    validations:
+      required: false
       # default: Kishan123
       # required: true
