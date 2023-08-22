@@ -3,12 +3,12 @@ title: "[test value and default]: "
 description: test
 labels: ["lables"]
 body:
-- type: input
-  id: name
-  attributes:
-    label: name
-    description: whats your name
-    placeholder: ex. Rahul
-    value: Kishan
-    default: Kishan123
-    required: true
+  - type: input
+    id: name
+    attributes:
+      label: name
+      description: whats your name
+      placeholder: ex. Rahul
+      value: Kishan
+      default: Kishan123
+      required: true
