@@ -3,38 +3,38 @@ title: "[test value and default]: "
 description: test
 labels: ["lables"]
 body:
-  - type: input
-    id: cluster-name
-    attributes:
-      label: Cluster name
-      description: The name for the cluster in kebab-case format.
-      placeholder: ex. example-cluster
-  - type: dropdown 
-    id: enable-proxy-settings
-    attributes:
-      label: Enable proxy settings
-      options:
-        - 'true'
-        - 'false'
-      default: 0  
-  - type: input
-    id: proxy-url
-    attributes:
-      label: Proxy URL
-      description: The proxy URL for the cluster.
-      value: http://amec.zscaler.philips.com:9480/
-  - type: input
-    id: no-proxy-url
-    attributes:
-      label: No Proxy URL
-      description: The no proxy URL for the cluster.
-      value: .rndnest.philips.com,161.0.0.0/8
-  - type: dropdown 
-    id: deployment-type
-    attributes:
-      label: Deployment type
-      options:
-        - dev
-        - scale
-        - integration
-        - testing
+- type: input
+  id: cluster-name
+  attributes:
+    label: Cluster name
+    description: The name for the cluster in kebab-case format.
+    placeholder: ex. example-cluster
+- type: dropdown 
+  id: enable-proxy-settings
+  attributes:
+    label: Enable Proxy settings
+    options:
+      - 'true'
+      - 'false'
+- type: input
+  id: proxy-url
+  attributes:
+    label: Proxy URL
+    description: The proxy URL for the cluster.
+    value: http://amec.zscaler.philips.com:9480/
+- type: input
+  id: no-proxy-url
+  attributes:
+    label: No Proxy URL
+    description: The no proxy URL for the cluster.
+    value: .rndnest.philips.com,161.0.0.0/8
+- type: dropdown 
+  id: deployment-type
+  attributes:
+    label: Deployment type
+    options:
+      - dev
+      - scale
+      - integration
+      - testing
+
