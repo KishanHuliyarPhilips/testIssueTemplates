@@ -16,6 +16,7 @@ body:
       options:
         - 'true'
         - 'false'
+      default: 'true'  
   - type: input
     id: proxy-url
     attributes:
