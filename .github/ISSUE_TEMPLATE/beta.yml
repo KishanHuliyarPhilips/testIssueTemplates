@@ -3,6 +3,7 @@ title: "[test value and default]: "
 description: test
 labels: ["lables"]
 body:
+body:
 - type: input
   id: cluster-name
   attributes:
@@ -16,6 +17,7 @@ body:
     options:
       - 'true'
       - 'false'
+    default: 0
 - type: input
   id: proxy-url
   attributes:
