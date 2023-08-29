@@ -14,8 +14,8 @@ body:
     attributes:
       label: Enable proxy settings
       options:
-        - true
-        - false
+        - 'true'
+        - 'false'
   - type: input
     id: proxy-url
     attributes:
