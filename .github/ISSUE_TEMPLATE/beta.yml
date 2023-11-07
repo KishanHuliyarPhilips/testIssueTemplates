@@ -6,6 +6,8 @@ body:
 body:
 - type: input
   id: cluster-name
+  validations:
+    required: true
   attributes:
     label: Cluster name
     description: The name for the cluster in kebab-case format.
